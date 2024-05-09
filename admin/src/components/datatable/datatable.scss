@@ -1,0 +1,124 @@
+.datatable {
+  height: 600px;
+  padding: 20px;
+
+  .datatableTitle {
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .link {
+      text-decoration: none;
+      color: green;
+      font-size: 16px;
+      font-weight: 400;
+      border: 1px solid green;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .cellWithImg {
+    display: flex;
+    align-items: center;
+
+    .cellImg {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+  }
+
+  .cellWithPrice {
+    margin-left: 10px;
+  }
+
+  .cellWithStatus {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .cellAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .viewButton {
+      padding: 5px 10px;
+      border-radius: 10px;
+      color: rgb(0, 64, 255);
+      border: 1px solid rgba(1, 94, 254, 0.596);
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        background-color: rgb(1, 94, 254);
+        color: white;
+      }
+    }
+
+    .deleteButton {
+      padding: 5px 10px;
+      border-radius: 10px;
+      color: crimson;
+      border: 1px solid rgba(236, 6, 52, 0.6);
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        background-color: rgb(255, 0, 51);
+        color: white;
+      }
+    }
+  }
+}
+
+.delete-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+
+    .modal-buttons-box {
+      display: flex;
+      justify-content: space-around;
+
+      .modal-buttons {
+        padding: 8px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: rgba(0, 140, 255);
+        border: 2px solid white;
+        font-size: 14px;
+        transition: background-color 0.4s, color 0.4s;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.796);
+          color: rgba(0, 132, 255);
+          border: 2px solid rgba(0, 140, 255);
+        }
+      }
+    }
+  }
+}

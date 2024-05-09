@@ -1,0 +1,43 @@
+/* Trong PolicyPage.css */
+
+.policy-page {
+  line-height: 1.3;
+  font-size: 16px;
+  color: #333;
+  background-color: #f8f9fa; /* Màu xám nhẹ */
+  padding: 20px;
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.515);
+  max-width: 850px;
+  margin: 10px auto;
+}
+
+.policy-page h1 {
+  color: #007bff; /* Màu xanh dương */
+}
+
+.policy-page h2 {
+  color: #007bff; /* Màu xám */
+  border-bottom: 2px solid #2c2c2d; /* Màu xanh dương */
+  padding-bottom: 5px;
+}
+
+.policy-page ul {
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.policy-page li {
+  margin-bottom: 10px;
+}
+
+.policy-page strong {
+  font-weight: bold;
+}
+
+.policy-page p {
+  margin: 10px 0 15px;
+  text-align: justify;
+}

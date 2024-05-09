@@ -1,0 +1,32 @@
+.CancelPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.cancelPage-button {
+  margin-top: 20px;
+  display: flex;
+  gap: 200px;
+}
+
+.cancelPage-button button {
+  border-radius: 10px;
+  background-color: #008cff;
+  color: white;
+  border: 1px solid white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.cancelPage-button button:hover {
+  background-color: rgb(242, 242, 242);
+  color: #008cff;
+  border: 1px solid #008cff;
+}

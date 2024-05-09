@@ -1,0 +1,196 @@
+.userOrder-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgb(245, 245, 245);
+  padding: 20px 0;
+}
+
+.userOrder-change-container {
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 7px;
+  background-color: white;
+  width: 900px;
+}
+
+.userOrder-change-container p {
+  font-size: 14px;
+  margin: 10px 0;
+  font-weight: 500;
+  color: rgb(90, 90, 90);
+}
+
+.userOrder-change-box {
+  margin: 30px 40px;
+}
+
+.userOrder__input-item {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  max-width: 300px;
+  margin: 10px 0;
+}
+
+.userOrder__input-item label {
+  font-size: 12px;
+}
+
+.userOrder__input-item input {
+  font-size: 14px;
+  border: none;
+}
+
+.userOrder-change-box button {
+  margin-top: 5px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(0, 140, 255);
+  border: 2px solid white;
+  font-size: 10px;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.userOrder-change-box button:hover {
+  background-color: rgba(255, 255, 255, 0.796);
+  color: rgba(0, 132, 255);
+  border: 2px solid rgba(0, 140, 255);
+}
+
+.userOrder-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.userOrder-table td {
+  font-size: 12px;
+  border-right: 1px solid #6c6c6c;
+  border-bottom: 1px solid #6c6c6c;
+  text-align: center;
+}
+
+.userOrder-table th {
+  font-size: 12px;
+  border-right: 1px solid #6c6c6c;
+  border-bottom: 1px solid #6c6c6c;
+  text-align: center;
+}
+
+.order-details-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.userOrder-modal-button {
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(0, 140, 255);
+  border: 2px solid white;
+  font-size: 14px;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.userOrder-modal-button:hover {
+  background-color: rgba(255, 255, 255, 0.796);
+  color: rgba(0, 132, 255);
+  border: 2px solid rgba(0, 140, 255);
+}
+
+.userOrder-info-box {
+  padding: 20px 30px;
+  border: 1px solid rgb(60, 60, 60);
+  border-radius: 10px;
+}
+
+.userOrder-info-box h1 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.userOrder-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  gap: 20px;
+  align-items: center;
+}
+
+.userOrder-divider {
+  width: 1px;
+  height: 170px;
+  background-color: grey;
+}
+
+.userOrder-info-item-box {
+  /* flex: 1; */
+  display: flex;
+  gap: 5px;
+}
+
+.userOrder-info-item-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.userOrder-info-item-label p {
+  font-size: 13px;
+
+  color: black;
+}
+
+.userOrder-info-item-data {
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+
+.userOrder-info-item-data p {
+  font-size: 13px;
+
+  color: black;
+  font-weight: 600;
+}
+
+.delete-confirmation-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.delete-confirmation-modal h3 {
+  margin-bottom: 5px;
+}
+
+.delete-confirmation-modal-button {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}

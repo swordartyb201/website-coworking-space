@@ -1,0 +1,150 @@
+.navbar {
+  display: flex;
+}
+
+.navbar__container-top {
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  position: relative;
+}
+
+.navbar__items-top {
+  display: flex;
+  align-items: center; /* Căn giữa theo chiều dọc */
+  margin-left: auto; /* Đẩy phần tử sang phải */
+  gap: 10px;
+}
+
+.navbar__logo {
+  width: 180px;
+  margin-left: 20px;
+}
+
+.navbar__items-top {
+  justify-content: center;
+}
+
+.navbar__username {
+  color: black;
+}
+
+.navbar__user-avatar {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-right: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar__avatar-menu {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar__user-menu-wrap.hidden {
+  height: 0;
+  overflow: hidden;
+}
+
+/* Khi hiển thị */
+.navbar__user-menu-wrap.visible {
+  top: 90%;
+  right: 0%;
+  width: 250px;
+  height: 280px;
+  transition: height 0.4s ease-in-out;
+}
+
+.navbar__user-menu-wrap {
+  overflow: hidden;
+  position: absolute;
+  z-index: 100;
+}
+
+.navbar__user-menu {
+  background: #fff;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid rgb(121, 121, 121);
+  border-radius: 5px;
+}
+
+.navbar___user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.navbar___user-info h3 {
+  flex: 2;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.navbar___user-info img {
+  flex: 1;
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.navbar___user-info hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: #ccc;
+  margin: 15px 0 10px;
+}
+
+.navbar__user-menu-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #525252;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.navbar__user-menu-link p {
+  width: 100%;
+}
+
+.navbar__user-menu-link:hover p {
+  font-weight: 600;
+}
+
+.navbar__user-menu-link span {
+  font-size: 22px;
+  transition: transform 0.5s;
+}
+
+.navbar__user-menu-link:hover span {
+  transform: translateX(5px);
+}
+
+.navbar__button-top {
+  font-size: 13px;
+  margin: 0px 5px;
+  font-weight: bold;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px 10px;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: rgb(0, 140, 255);
+  transition: background-color 0.4s, color 0.4s, font-size 0.4s;
+}
+
+.navbar__button-top:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 140, 255);
+  border: 1px solid rgb(0, 140, 255);
+  font-size: 14px;
+}

@@ -1,0 +1,41 @@
+.navbar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  margin: 10px;
+
+  .wrapper {
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+
+    .items {
+      display: flex;
+      align-items: center;
+      margin-left: 1200px;
+
+      .item {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        position: relative;
+
+        .icon {
+          font-size: 20px;
+          cursor: pointer;
+        }
+
+        .avatar {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}

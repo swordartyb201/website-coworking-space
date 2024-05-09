@@ -1,0 +1,46 @@
+/* SuccessPage.css */
+.paymantSc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.paymantSc-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.qrCodeContainer {
+  margin-top: 20px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.qrCodeContainer canvas {
+  padding: 10px;
+  width: auto !important;
+  max-width: 100%;
+}
+
+.paymantSc-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #1e88e5;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid #1e88e5;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.paymantSc-button:hover {
+  background-color: #ffffff;
+  color: #1e88e5;
+}

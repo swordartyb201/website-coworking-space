@@ -1,0 +1,26 @@
+.userProfile_sidebar {
+  background-color: white;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 7px;
+}
+
+.userProfile_sidebar-item {
+  padding: 20px 25px;
+  cursor: pointer;
+}
+
+.userProfile_sidebar-icon {
+  padding-right: 10px;
+  width: 20px;
+}
+
+.userProfile_sidebar-link {
+  text-decoration: none;
+  color: rgb(111, 111, 111);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.userProfile_sidebar-link:hover {
+  color: black;
+}

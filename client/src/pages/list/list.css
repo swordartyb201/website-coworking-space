@@ -1,0 +1,158 @@
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.listWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+}
+
+.listSearch {
+  flex: 1;
+  background-color: #febb02;
+  padding: 10px;
+  border-radius: 10px;
+  position: sticky;
+  top: 10px;
+  height: max-content;
+}
+
+.lsTitle {
+  font-size: 20px;
+  color: #202020;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.lsItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.listLocation {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lsItem > label {
+  font-size: 13px;
+}
+
+.lsItem > input {
+  height: 30px;
+  border: none;
+  padding: 5px;
+}
+.lsItem > span {
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.listSearch > button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.listResult {
+  flex: 3;
+}
+
+.list-buttons label {
+  font-size: 13px;
+}
+
+.list-buttons-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-buttons-datemode {
+  font-size: 13px;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.list-buttons-datemode.selected {
+  background-color: #1c77ff;
+  color: white;
+  border: 1px solid #1c77ff;
+}
+
+.lsItem-date {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+
+.listText-time {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.list-input-time {
+  background-color: white;
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.listdate {
+  position: absolute;
+  top: 280px;
+  left: -160px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  z-index: 20;
+  display: flex;
+  background-color: white;
+  font-size: 13px;
+}
+
+.list-select-hour {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+}
+.list-select-hour-input {
+  border: 1px solid #000000;
+  padding: 5px;
+  border-radius: 5px;
+  width: 70px;
+}
+
+.listdate-day {
+  position: absolute;
+  top: 280px;
+  left: -90px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  z-index: 20;
+}

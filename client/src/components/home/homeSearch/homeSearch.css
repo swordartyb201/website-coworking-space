@@ -1,0 +1,175 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin: -20px -40px 0px 30px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerSearchItem-buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 10px 0;
+  margin-left: 35px;
+}
+
+.headerBtn {
+  background-color: #ff8400;
+  color: white;
+  font-weight: 500;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.headerBtn p {
+  font-size: 14px;
+}
+
+.headerSearchItem-buttons-datemode {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  background-color: white;
+  font-size: 14px;
+  cursor: pointer;
+  color: #000000;
+  font-weight: 550;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #454545;
+}
+
+.headerSearchItem-datemode-icon {
+  color: #ff8400;
+  font-size: 20px;
+  margin-top: 3px;
+}
+
+.headerSearchItem-datemode-icon.selected {
+  color: white;
+}
+
+.headerSearchItem-buttons-datemode:hover {
+  color: #ff8400;
+}
+
+.headerSearchItem-buttons-datemode.selected {
+  background-color: #1f90fad0;
+  color: #fdfdfd;
+  border: 1px solid #ffffff;
+}
+
+.headerSearch {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  width: 100%;
+  max-height: 50px;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+
+.header-divider {
+  background-color: #000000;
+  height: 50px;
+  width: 1px;
+}
+
+.headerIcon {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.headerSearchItem-location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.headerIcon-location {
+  color: #ff8400;
+  font-size: 24px;
+}
+
+.headerSearchItem-time {
+  align-items: center;
+  gap: 40px;
+  display: flex;
+  margin-top: -6px;
+}
+
+.headerSearchItem-time-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerSearchItemText-time {
+  color: #000000;
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.headerSearchItemText {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.headerSearchInput {
+  border: 1px solid #000000;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.headerSearchText {
+  color: rgb(74, 74, 74);
+  cursor: pointer;
+  border: 1px solid #000000;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.date {
+  position: absolute;
+  top: 150px;
+  left: 235px;
+  border: 1px solid gray;
+  z-index: 20;
+  display: flex;
+  background-color: white;
+}
+
+.headerSearch-select-hour {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  align-items: center;
+  gap: 5px;
+}
+.headerSearch-select-hour-input {
+  border: 1px solid #000000;
+  padding: 5px;
+  border-radius: 5px;
+  width: 70px;
+}
